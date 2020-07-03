@@ -12,6 +12,8 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionsTest {
 
 	public static void main(String[] args) {
+		
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
